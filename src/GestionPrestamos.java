@@ -13,8 +13,7 @@ public class GestionPrestamos {
     }
     // Método para consultar préstamos de un usuario
     public void consultarPrestamosUsuario(int idUsuario) {
-        // Aquí iría la lógica real para consultar los préstamos del usuario en una base de datos o estructura
-        de datos
+        // Aquí iría la lógica real para consultar los préstamos del usuario en una base de datos o estructura de datos
         // En este ejemplo, simplemente imprimimos un mensaje indicando que se consultaron los préstamos
         System.out.println("Consultando préstamos del usuario con ID: " + idUsuario);
     }
