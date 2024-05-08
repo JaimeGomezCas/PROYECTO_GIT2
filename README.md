@@ -5,7 +5,10 @@
 ---
 ### Tarea 1: Creación del Proyecto
 - [x] Clonar el repositorio del proyecto.
- ª
+ '''
+git init
+git clone https://github.com/JaimeGomezCas/1-DAM.git
+    '''
 - [ ] Inicializar GitFlow en el repositorio local.
 - [ ] Crear y cambiar a la rama `develop`.
 ### Tarea 2: Implementación de Características
