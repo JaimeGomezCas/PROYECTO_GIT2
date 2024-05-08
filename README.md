@@ -5,31 +5,50 @@
 ---
 ### Tarea 1: Creación del Proyecto
 - [x] Clonar el repositorio del proyecto.
- '''
+```
 git init
 git clone https://github.com/JaimeGomezCas/1-DAM.git
-    '''
-- [ ] Inicializar GitFlow en el repositorio local.
-- [ ] Crear y cambiar a la rama `develop`.
+```
+- [x] Inicializar GitFlow en el repositorio local.
+
+```
+git flow init
+```
+
+- [x] Crear y cambiar a la rama `develop`.
+````
+git branch develop
+git checkout develop
+````
 ### Tarea 2: Implementación de Características
-#### Característica 1: [Nombre de la Característica]
-- [ ] Crear una nueva rama de características desde `develop`.
-- [ ] Hacer commits regulares mientras se trabaja en la característica.
-- [ ] Realizar pruebas locales para asegurarse de que la característica funcione correctamente.
-- [ ] Fusionar la rama de características en `develop`.
-- [ ] Eliminar la rama de características.
-#### Característica 2: [Nombre de la Característica]
-- [ ] Crear una nueva rama de características desde `develop`.
-- [ ] Implementar el código correspondiente a la característica.
-- [ ] Hacer commits regulares mientras se trabaja en la característica.
-- [ ] Realizar pruebas locales para asegurarse de que la característica funcione correctamente.
-- [ ] Fusionar la rama de características en `develop`.
-- [ ] Eliminar la rama de características.
+
+#### Características: 
+- [x] Crear una nueva rama de características desde `develop`.
+```
+git flow feature start 'nombre de la rama'
+//En este caso serian las ramas de Arturo, Youssef Y Jaime
+```
+- [x] Hacer commits regulares mientras se trabaja en la característica.
+```
+git commit -m "mensaje del commit"
+```
+
+
+- [x] Fusionar la rama de características en `develop`.
+```
+git merge
+```
+- [x] Eliminar la rama de características.
+```
+git flow feature finish
+```
 ### Tarea 3: Integración y Pruebas
 - [ ] Integrar la rama `develop` en `master`.
-- [ ] Realizar pruebas exhaustivas en la versión integrada.
-- [ ] Corregir cualquier error o problema encontrado durante las pruebas.
-- [ ] Confirmar que la versión integrada está lista para ser desplegada en producción.
+```
+git merge
+//desde develop
+```
+
 ### Tarea 4: Documentación y Entrega
 - [ ] Crear la documentación del proyecto utilizando Markdown.
 - [ ] Completar la sección de introducción, estructura del repositorio, instalación, uso, contribución, licencia,
