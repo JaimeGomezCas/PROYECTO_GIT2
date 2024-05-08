@@ -1,10 +1,11 @@
 # Tareas de GitFlow
-## Nombre del Estudiante: [Nombre del Estudiante]
-## Fecha de Inicio: [Fecha de Inicio]
-## Fecha de Finalización: [Fecha de Finalización]
+## Nombre del Estudiante: [Arturo, Jaime, Youssef]
+## Fecha de Inicio: [08/05/2024]
+## Fecha de Finalización: [08/05/2024]
 ---
 ### Tarea 1: Creación del Proyecto
-- [ ] Clonar el repositorio del proyecto.
+- [x] Clonar el repositorio del proyecto.
+ ª
 - [ ] Inicializar GitFlow en el repositorio local.
 - [ ] Crear y cambiar a la rama `develop`.
 ### Tarea 2: Implementación de Características
