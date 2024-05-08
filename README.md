@@ -10,7 +10,6 @@
 ### Tarea 2: Implementación de Características
 #### Característica 1: [Nombre de la Característica]
 - [ ] Crear una nueva rama de características desde `develop`.
-- [ ] Implementar el código correspondiente a la característica.
 - [ ] Hacer commits regulares mientras se trabaja en la característica.
 - [ ] Realizar pruebas locales para asegurarse de que la característica funcione correctamente.
 - [ ] Fusionar la rama de características en `develop`.
